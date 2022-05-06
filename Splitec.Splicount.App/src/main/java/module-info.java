@@ -1,4 +1,4 @@
-module splitec.splicount.splitec_splicount_app {
+module App {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -10,7 +10,10 @@ module splitec.splicount.splitec_splicount_app {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires Core;
 
-    opens splitec.splicount.splitec_splicount_app to javafx.fxml;
+    opens splitec.splicount.app to javafx.fxml;
+    exports splitec.splicount.app;
     exports splitec.splicount.controllers;
+    opens splitec.splicount.controllers to javafx.fxml;
 }
