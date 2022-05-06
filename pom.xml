@@ -12,6 +12,7 @@
         <module>Splitec.Splicount.Core</module>
         <module>Splitec.Splicount.Services</module>
         <module>Splitec.Splicount.Repositories</module>
+        <module>Splitec.Splicount.App</module>
     </modules>
 
     <properties>

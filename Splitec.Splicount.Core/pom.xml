@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Splitec_Splicount_Core</artifactId>
+    <artifactId>Core</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
