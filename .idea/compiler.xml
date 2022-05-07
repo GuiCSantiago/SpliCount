@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Splitec.Splicount.Services" />
         <module name="Splitec.Splicount.Core" />
         <module name="Splitec.Splicount.App" />
-        <module name="Splitec.Splicount.Repositories" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Splitec.Splicount.Repositories" target="17" />
+      <module name="Splitec.Splicount.Services" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

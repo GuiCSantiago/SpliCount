@@ -10,7 +10,6 @@ module App {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
-    requires Core;
 
     opens splitec.splicount.app to javafx.fxml;
     exports splitec.splicount.app;
